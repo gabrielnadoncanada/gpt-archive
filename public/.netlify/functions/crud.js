@@ -1,9 +1,9 @@
 const axios = require("axios");
 
 const githubApiUrl = "https://api.github.com";
-const repoPath = "your-github-username/your-repo-name";
+const repoPath = "gabrielnadoncanada/gpt-archive";
 const filePath = "users.json";
-const token = "your-github-personal-access-token";
+const token = "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";
 
 exports.handler = async (event) => {
   const { httpMethod, body } = event;
